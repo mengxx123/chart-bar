@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=1080"/>
+    <meta name="description" content="Create Beautiful Bar Charts">
+
+    <title>柱状图 - 云设图表</title>
+
+    <link rel="icon" href="favicon.gif" type="image/x-icon">
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div id="fb-root"></div>
+
+<div class="social">
+    <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Create%20Beautiful%20Bar%20Charts"
+       data-count="none" data-url="http://chartico.com" data-related="chartico" data-via="chartico"></a>
+    <div class="fb-share-button" data-href="http://chartico.com" data-layout="button"></div>
+    <div class="fb-like tran" data-href="https://facebook.com/charticoapp" data-layout="button" data-action="like"
+         data-show-faces="true" data-share="false"></div>
+</div>
+
+<div class="box trans full">
+    <div class="splash">
+        <img class="logo slow" src="logo.gif">
+        <h1>创建美丽的条形图</h1>
+        <a class="button tran">新建图表</a>
+    </div>
+    <div id="canvas" class="canvas noselect trans full shadow">
+        <input class="title" placeholder="标题"/>
+        <input class="subtitle" placeholder="子标题"/>
+        <div class="frame">
+            <div class="tower trans">
+                <input class="value tran" value="0"/>
+                <div class="bar c1 tran slow">
+                    <div class="add tran">+</div>
+                    <div class="remove tran">-</div>
+                </div>
+                <input class="label tran" placeholder="标签"/>
+            </div>
+        </div>
+    </div>
+    <div class="actionbar noselect trans">
+        <div class="ratio"></div>
+        <div class="done hide button tran">完成</div>
+        <div class="loader"><img src="loader.gif"/></div>
+    </div>
+</div>
+
+<div class="menu noselect colors tran shadow">
+    <div class="c1 tran"></div>
+    <div class="c2 tran"></div>
+    <div class="c3 tran"></div>
+    <div class="c4 tran"></div>
+    <div class="c5 tran"></div>
+    <div class="c6 tran"></div>
+    <div class="c7 tran"></div>
+    <div class="c8 tran"></div>
+    <div class="c9 tran"></div>
+    <div class="c10 tran"></div>
+</div>
+
+<div class="featured">
+    <div class="bodytitle">精选图</div>
+    <a target="_blank" href="javascript:;"><img class="item tran shadow-b" src="img/example-1.png"/></a>
+    <a target="_blank" href="javascript:;"><img class="item tran shadow-b" src="img/example-2.png"/></a>
+    <a target="_blank" href="javascript:;"><img class="item tran shadow-b" src="img/example-3.png"/></a>
+    <a target="_blank" href="javascript:;"><img class="item tran shadow-b" src="img/example-4.png"/></a>
+
+    <div class="footer">
+        <p>© 2017 tool.yunser.com</p>
+    </div>
+</div>
+
+<div id="view-box" class="view-box">
+    <div id="close" class="view-box-close"></div>
+    <img id="view-box-img" class="view-box-img" src="66.jpg">
+</div>
+
+<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+
+<script src="html2canvas.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
